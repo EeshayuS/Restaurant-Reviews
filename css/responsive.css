@@ -89,6 +89,7 @@
   }
 }
 
+/* Desktop */
 @media screen and (min-width: 1221px) and (max-width: 1540px)  {
   .wrapper {
   	width: 1200px;
@@ -98,7 +99,7 @@
   }
 }
 
-/* Desktop */
+
 @media screen and (min-width: 1541px) {
   .wrapper {
   	width: 1500px;

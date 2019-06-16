@@ -110,7 +110,6 @@ header {
 
 /* ====================== Navigation ====================== */
 
-
 nav {
   height: 100%;
   text-align: center;
@@ -242,6 +241,8 @@ nav {
 #restaurants-list a:hover .restaurant-name {
   color: #0080ff;
 }
+
+
 /* ====================== Restaurant Details ====================== */
 .breadcrumbs {
   background-color: #eee;

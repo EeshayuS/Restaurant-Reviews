@@ -1,22 +1,12 @@
 const staticCacheName = 'cache';
 
-
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(staticCacheName)
       .then( (cache) => {
         return cache.addAll('./',
   'index.html',
-  'restaurant.html?id=1',
-  'restaurant.html?id=2',
-  'restaurant.html?id=3',
-  'restaurant.html?id=4',
-  'restaurant.html?id=5',
-  'restaurant.html?id=6',
-  'restaurant.html?id=7',
-  'restaurant.html?id=8',
-  'restaurant.html?id=9',
-  'restaurant.html?id=10',
+  './restaurant.html',
   './css/styles.css',
   './css/responsive.css',
   './js/main.js',
